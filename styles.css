@@ -73,8 +73,15 @@ body {
 
 .first-section {
     display: flex;
-    align-items: stretch;
+    align-items: center;
     justify-content: center;
+    margin-left: 2rem;
+}
+
+.first-section title {
+    display: flex;
+    justify-content: center;
+    
 }
 
 .second-section {
@@ -135,9 +142,12 @@ body {
 }
 
 .subtitle {
-    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 50;
     font-size: 1.2rem;
-    margin-bottom: 10rem;
+    margin-bottom: 1rem;
 }
 
 .title {
@@ -344,6 +354,7 @@ body {
     .third-section {
         display: flex;
         justify-content: center;
+        margin-left: .7rem;
     }
 
     .dev-list {
