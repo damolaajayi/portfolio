@@ -254,7 +254,7 @@ body {
     border-radius: 4px;
     padding: 3px;
     padding-top: 3rem;
-    width: 100px;
+    width: 70px;
 }
 
 
@@ -439,7 +439,7 @@ body {
     }
 
     .project-anchor img {
-        width: 50px;
+        width: 40px;
         display: flex;
         justify-content: flex-start;
         border: 0px;
