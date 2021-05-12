@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    min-height: 100vh;
+    background-color: #2F303A;
+    font-family: Poppins, sans-serif;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.full-height-grow {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-logo {
+    display: flex;
+    align-items: flex-start;
+    font-size: 1.25rem;
+    color: inherit;
+    text-decoration: none;
+}
+
+.main-header {
+    height: 140px;
+    position: static;
+}
+
+.main-header,
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav ul,
+.footer-nav a {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav a,
+.footer-nav a {
+    color: inherit;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.main-nav a:hover,
+.footer-nav a:hover {
+    color: #adadad;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    flex-grow: 1;
+}
+
+.first-section {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.second-section {
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+}
+
+.third-section {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    line-height: 3rem;
+}
+
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.fifth-section ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 1px;
+    list-style: none;
+    padding-bottom: 5rem;
+}
+
+.call-to-action {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.btn {
+    color: white;
+    background-color: #1762A7;
+    padding: .75rem 1.5rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    font-size: .9rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #2180d8;
+}
+
+.btn:focus {
+    background-color: #2796ff;
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 10rem;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 3em;
+    margin-bottom: 1rem;
+}
+
+.heading {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.dev-list ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 1px;
+    list-style: none;
+    padding-bottom: 5rem;
+}
+
+.items {
+    color: white;
+    background-color: #1762A7;
+    padding: .75rem 1.5rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    outline: none;
+    border: none;
+
+}
+
+.items-2 {
+    color: white;
+    background-color: #1762A7;
+    padding: .75rem 1.5rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    outline: none;
+    border: none;
+}
+
+.p {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.p-1 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-display: lighter;
+    padding-bottom: 2rem;
+}
+
+.project-card {
+    border: .5rem solid #545557;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px 0.5px #2F303A;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    height: 25rem;
+    width: 30rem;
+    background-color: #2F303A;
+    box-sizing: border-box;
+}
+
+.project-card h3 {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.project-card p {
+    margin: 1rem;
+    text-align: center;
+}
+
+.site-link {
+    display: flex;
+    justify-content: center;
+    border: 0px;
+    border-radius: 4px;
+    padding: 3px;
+    padding-top: 3rem;
+    width: 100px;
+}
+
+.project-box {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.project-anchor {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 4rem;
+    padding-left: 4rem;
+
+}
+
+.project-anchor img {
+    display: flex;
+    justify-content: flex-start;
+    border: 0px;
+    border-radius: 4px;
+    padding: 3px;
+    padding-top: 3rem;
+    width: 100px;
+}
+
+
+.H {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: 10px;
+    padding-bottom: 10rem;
+
+}
+
+.social img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 0px;
+    border-radius: 2px;
+    padding: 3px;
+    padding-top: 3rem;
+    width: 90px;
+}
+
+@media (max-width: 400px) {
+
+    * {
+        box-sizing: border-box;
+        margin: 0rem;
+        padding: 0rem;
+
+    }
+
+    .body {
+        margin: 0rem;
+        padding: 0rem;
+        min-height: 100vh;
+    }
+
+    .full-height-grow {
+        margin: 0px;
+    }
+
+    .container,
+    .full-height-grow {
+        margin: auto;
+        margin-left: 0;
+    }
+
+
+    .brand-logo {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .main-header {
+        flex-direction: row;
+        position: static;
+    }
+
+
+
+    .first-section {
+        width: 300px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .second-section {
+        width: 300px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .third-section {
+        width: 300px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .dev-list {
+        display: flexbox;
+        flex-direction: row;
+    }
+
+    .dev-list ul {
+        display: flexbox;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0;
+        padding: 1px;
+        list-style: none;
+        padding-bottom: 5rem;
+    }
+
+    .items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        color: white;
+        background-color: #1762A7;
+        padding: .75rem 1.5rem;
+        border-radius: .5rem;
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-weight: bold;
+        outline: none;
+        border: 0px;
+
+    }
+
+    .p {
+        display: flex;
+        justify-content: center;
+        font-size: 3rem;
+        padding-bottom: 1.2rem;
+    }
+
+    .p-1 {
+        display: flex;
+        justify-content: center;
+        font-size: 1rem;
+        font-weight: lighter;
+        padding-bottom: 1rem;
+    }
+
+    .project-card {
+        border: .5rem solid #545557;
+        border-radius: 2px;
+        box-shadow: 0 1px 1px 0.5px #2F303A;
+        display: flex;
+        flex-direction: column;
+        margin: 2rem;
+        height: 25rem;
+        width: 30rem;
+        background-color: #2F303A;
+        box-sizing: border-box;
+    }
+
+    .project-card p {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+
+    .heading {
+        display: flex;
+        align-items: row;
+        font-weight: bold;
+        font-size: 1.7rem;
+    }
+
+    .fifth-section {
+        display: none;
+        align-items: column;
+    }
+
+    .project-box {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 4rem;
+
+    }
+
+    .project-card p {
+        margin: .2rem;
+        text-align: center;
+    }
+
+    .project-anchor img {
+        width: 50px;
+        display: flex;
+        justify-content: flex-start;
+        border: 0px;
+        border-radius: 4px;
+        padding: 3px;
+        padding-top: .1rem;
+    }
+
+    .project-anchor {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .H {
+        display: flex;
+        justify-content: center;
+        font-size: 1.8rem;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .social {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        border: 10px;
+        padding-bottom: 3rem;
+
+    }
+
+    .social img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: 0px;
+        border-radius: 2px;
+        padding: 3px;
+        padding-top: 1rem;
+        width: 50px;
+    }
+}
