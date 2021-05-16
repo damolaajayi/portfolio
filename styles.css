@@ -17,9 +17,12 @@ body {
   overflow-x: hidden;
 }
 
-.full-height-grow {
+.container {
   display: flex;
+  align-items: center;
+  margin: 0 auto;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 .main-nav {
@@ -93,22 +96,6 @@ body {
   line-height: 2;
 }
 
-.fourth-section {
-  display: flex;
-  justify-content: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.fifth-section ul {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 0;
-  padding: 1px;
-  list-style: none;
-  padding-bottom: 5rem;
-}
-
 .call-to-action {
   display: flex;
   align-items: stretch;
@@ -151,33 +138,36 @@ body {
   margin-bottom: 1rem;
 }
 
-.heading {
-  font-size: 3rem;
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+
+.skills-heading {
+  font-size: 2rem;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .dev-list ul {
-  display: flex;
-  justify-content: space-between;
-  margin: 0;
-  padding: 1px;
   list-style: none;
-  padding-bottom: 5rem;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.dev-list ul li {
+  margin: 10px 5px;
 }
 
 .items {
-  color: white;
-  background-color: #1762a7;
-  padding: 0.75rem 1.5rem;
-  border-radius: 0.5rem;
-  text-decoration: none;
-  font-size: 1.2rem;
-  font-weight: bold;
-  outline: none;
-  border: none;
-}
-
-.items-2 {
   color: white;
   background-color: #1762a7;
   padding: 0.75rem 1.5rem;
@@ -213,8 +203,8 @@ body {
   margin: 2rem;
   height: 25rem;
   width: 30rem;
+  padding: 3rem;
   background-color: #2f303a;
-  box-sizing: border-box;
 }
 
 .project-card h3 {
@@ -225,6 +215,7 @@ body {
 .project-card p {
   margin: 1rem;
   text-align: center;
+  font-size: 15px;
 }
 
 .site-link {
@@ -257,6 +248,10 @@ body {
   padding: 3px;
   padding-top: 3rem;
   width: 70px;
+}
+
+.contact {
+  padding-top: 90px;
 }
 
 .H {
