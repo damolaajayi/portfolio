@@ -286,3 +286,31 @@ body {
   padding-top: 3rem;
   width: 90px;
 }
+
+
+@media (max-width: 700px) {
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  .project-anchors img {
+    width: 40px;
+    border: 0px;
+    border-radius: 4px;
+    padding: 2px;
+    padding-top: 3rem;
+  }
+
+  .social img {
+    width: 40px;
+  border: 0px;
+  border-radius: 4px;
+  padding: 1px;
+  padding-top: 2rem;
+  }
+}
