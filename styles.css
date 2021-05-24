@@ -268,11 +268,11 @@ body {
 
 .social {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: space-around;
-  border: 10px;
-  padding-bottom: 10rem;
+  justify-content: center;
+  margin: 4rem;
+  border: 5px;
+  padding-bottom: 6rem;
 }
 
 .social img {
@@ -280,10 +280,10 @@ body {
   flex-direction: column;
   justify-content: center;
   border: 0px;
-  border-radius: 2px;
+  border-radius: 4px;
   padding: 3px;
   margin: 10px;
-  padding-top: 3rem;
+  padding-top: 2rem;
   width: 90px;
 }
 
